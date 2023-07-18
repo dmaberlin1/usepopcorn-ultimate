@@ -9,4 +9,5 @@ const Logo = () => {
     );
 };
 
+//presentational component - презентационный компонент
 export default Logo;

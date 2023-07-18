@@ -13,4 +13,5 @@ const Search = () => {
     );
 };
 
+//statefull component
 export default Search;

@@ -1,12 +1,12 @@
 import React from 'react';
-import ListBox from "./ListBox";
-import WatchedBox from "./WatchedBox";
 
-const Main = () => {
+
+const Main = ({children}) => {
     return (
         <main className="main">
-            <ListBox/>
-            <WatchedBox/>
+            {/*<ListBox movies={movies}/>*/}
+            {/*<WatchedBox/>*/}
+            {children}
         </main>
 
     );

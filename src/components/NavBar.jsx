@@ -1,14 +1,15 @@
-import React, {useState} from 'react';
-import Search from "./Search";
-import Logo from "./Logo";
-import NumResults from "./NumResults";
+import React from 'react';
 
-const NavBar = () => {
+
+const NavBar = ({children}) => {
     return (
-        <nav className="nav-bar">
-            <Logo/>
-           <Search/>
-            <NumResults></NumResults>
+        // <nav className="nav-bar">
+        //     <Logo/>
+        //    <Search/>
+        //     <NumResults movies={movies}></NumResults>
+        // </nav>
+        <nav>
+            {children}
         </nav>
 
     );
